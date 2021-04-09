@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.parent {
+    width: 100%;
+    margin: 20px auto;
+    border: 5px solid black ;
+    text-align: center;
+}
+
+.img-box {
+    padding: 5px;
+    width: 30.3%;
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    margin-right: -4px;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .img-box {
+        width: 50%;
+        margin-right: -4px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img-box {
+        width: 100%;
+        margin-right: -4px;
+    }
+}
